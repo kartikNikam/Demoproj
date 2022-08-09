@@ -35,6 +35,7 @@ public class Democlass {
 		
 		char ch = 's';
 		char as ='$';
+		char bb= '1';
 		
 		
 		
