@@ -2,6 +2,11 @@ package Demopkg;
 
 public class Democlass {
 	
+	 public static void  pratik()
+	   {
+		   int i =20; // local variable
+		   System.out.println("value of variable=" +i);
+	   }
 
 	public static void main(String[] args) 
 	{
