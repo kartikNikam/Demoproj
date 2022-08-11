@@ -8,6 +8,7 @@ package Demopkg;
 			 // loading 
 	 int i = 20 ; // global varible
 	 int j = 30;
+	 int k =50;
 	 
    public static void  myfirstmethod()
    {
