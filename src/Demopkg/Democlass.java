@@ -7,6 +7,16 @@ public class Democlass {
 		   int i =20; // local variable
 		   System.out.println("value of variable=" +i);
 	   }
+	 
+	 public void Pqr() {
+		 
+		 System.out.println("this is pratik's method");
+	 }
+	 
+	 public void Anuja() {
+		 System.out.println("This is anuja's method");
+	 }
+	 
 
 	public static void main(String[] args) 
 	{
@@ -44,7 +54,10 @@ public class Democlass {
 		char se = 'w';
 		
 		
+		ClassObject.myfirstmethod();
 		
+		 Democlass Pratik = new Democlass();
+		 Pratik.Pqr();
 		
 
 	}

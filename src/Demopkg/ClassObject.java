@@ -16,6 +16,13 @@ package Demopkg;
 	   System.out.println("value of variable=" +i);
    }
 	 
+   // Dynamic // non static
+   
+   public void Dynamicmethod() {
+	   System.out.println("Dynamic method");
+	  
+   }
+   
 	public static void main(String[] args) {
 		
 	//object :combination of state (variables) & behavior (methods) 	
@@ -47,9 +54,25 @@ package Demopkg;
 		 // objects 
 		 // parameters // arguments 
 		 
-		myfirstmethod();  // method calling  same class static method 
-		Democlass.pratik(); // another class static method 
-		
+//		myfirstmethod();  // method calling  same class static method 
+//		Democlass.pratik(); // another class static method 
+//		
+		ClassObject Obj = new ClassObject();// object created
+//		  Obj.Dynamicmethod();
+//		  System.out.println(Obj.hashCode());
+		  Obj.myfirstmethod();
+		  
+		  
+	
+//		  Democlass Obj1 = new Democlass();
+//		  Obj1.Anuja();
+//		  
+//		  static   static
+//		  non static    class
+//		               different class
+	
+	
 	}
+	
 
 }
