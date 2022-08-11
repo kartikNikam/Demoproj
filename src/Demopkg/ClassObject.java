@@ -7,6 +7,7 @@ package Demopkg;
 			 // 1.a static method : class level method // loaded at time of class
 			 // loading 
 	 int i = 20 ; // global varible
+	 int j = 30;
 	 
    public static void  myfirstmethod()
    {
@@ -45,8 +46,8 @@ package Demopkg;
 		 // objects 
 		 // parameters // arguments 
 		 
-		myfirstmethod();  // method calling 
-		Democlass.pratik();
+		myfirstmethod();  // method calling  same class static method 
+		Democlass.pratik(); // another class static method 
 		
 	}
 
