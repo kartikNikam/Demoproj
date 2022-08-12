@@ -19,11 +19,22 @@ package Demopkg;
    // Dynamic // non static
    
    public void Dynamicmethod() {
-	   System.out.println("Dynamic method");
-	  
+	   System.out.println("Old Dynamic method");
+	   	 Dynamicmethod1();
+   }
+   public void Dynamicmethod1() {
+	   System.out.println("New Dynamic method");
+	   //Dynamicmethod();
    }
    
 	public static void main(String[] args) {
+		
+		
+		 ClassObject a = new  ClassObject();
+		  a.Dynamicmethod();
+		
+		
+		
 		
 	//object :combination of state (variables) & behavior (methods) 	
 
@@ -57,10 +68,10 @@ package Demopkg;
 //		myfirstmethod();  // method calling  same class static method 
 //		Democlass.pratik(); // another class static method 
 //		
-		ClassObject Obj = new ClassObject();// object created
+		//ClassObject Obj = new ClassObject();// object created
 //		  Obj.Dynamicmethod();
 //		  System.out.println(Obj.hashCode());
-		  Obj.myfirstmethod();
+//		  Obj.myfirstmethod();
 		  
 		  
 	
