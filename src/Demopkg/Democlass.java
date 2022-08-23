@@ -4,8 +4,8 @@ public class Democlass {
 	
 	 public static void  pratik()
 	   {
-		   int i =20; // local variable
-		   System.out.println("value of variable=" +i);
+		  // int i =20; // local variable
+		   System.out.println(VariablesDeclaration.i);
 	   }
 	 
 	 public void Pqr() {
@@ -15,6 +15,10 @@ public class Democlass {
 	 
 	 public void Anuja() {
 		 System.out.println("This is anuja's method");
+		 
+		 System.out.println(Variabledeclaresnonstatic.k);
+		
+		 
 	 }
 	 
 
@@ -54,12 +58,24 @@ public class Democlass {
 		char se = 'w';
 		
 		
-		ClassObject.myfirstmethod();
+//		ClassObject.myfirstmethod();
+//		
+//		 Democlass Pratik = new Democlass();
+//		 Pratik.Pqr();
 		
-		 Democlass Pratik = new Democlass();
-		 Pratik.Pqr();
+		 //pratik();
 		
-
+		 Variabledeclaresnonstatic Obj2 = new Variabledeclaresnonstatic();
+		 System.out.println(Obj2.i);
+		 System.out.println(Obj2.j);
+		System.out.println(Variabledeclaresnonstatic.k); 
+		Obj2.pqr();
+		
+		Democlass t = new Democlass ();
+		t.Anuja();
+		 
+		 
+		 
 	}
 
 }
