@@ -9,6 +9,7 @@ package Demopkg;
 	 int i = 20 ; // global varible
 	 int j = 30;
 	 int k =50;
+	 int a=20;
 	 
    public static void  myfirstmethod()
    {
