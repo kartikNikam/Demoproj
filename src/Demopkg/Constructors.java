@@ -12,7 +12,7 @@ public class Constructors {
 	public int s;
 	public int e;
 	
-	public  Constructors(int m,int s,int e) 
+	public  Constructors(int m,int s,int e)       //1
 	{
 		this.m=m;
 		this.s=s;
@@ -22,20 +22,31 @@ public class Constructors {
 		System.out.println("value of e is :"+this.e);
 		System.out.println("constructor with three arguments");
 	}
-	public Constructors(int m)
+	public Constructors(int m)                     //2
 	{
+		this();
+	
 		System.out.println("constructor with one argument");
 	}
-	public Constructors(int m,boolean b)
+	public Constructors(int m,boolean b)            //3
 	{
+		
 		System.out.println("Constructor with two arguments");
+	}
+	
+	public  Constructors() {                      //4
+	
+		this(20,false);
+		System.out.println("constructors with zero arguments");
 	}
 		
 	public static void main(String[] args) {
 		
-		Constructors Obj = new Constructors(10,20,30);
-		Constructors Obj1 = new Constructors(10);
-		Constructors Obj2 = new Constructors(10,false);
+//		Constructors Obj = new Constructors(10,20,30);
+//		Constructors Obj1 = new Constructors(10);
+//		Constructors Obj2 = new Constructors(10,false);
+		
+		Constructors cb = new Constructors(10);
 	
 	
 		
